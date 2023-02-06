@@ -20,6 +20,6 @@ practice.use(cors("*"));
 
 practice.use("/api", studentRoutes.routes);
 practice.get("/", (req, res) => {
-  msg: "hello";
+  res.send({msg: "hello"});
 });
 exports.practice = functions.https.onRequest(practice);

@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "testingnodefirebase"
-  }
+    "default": "gallery-31627"
+  },
+  "targets": {}
 }

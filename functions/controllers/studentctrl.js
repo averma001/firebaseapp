@@ -1,7 +1,6 @@
 //const { db } = require("../db");
 const firebase = require("firebase-admin");
 const Student = require("../models/student");
-const studentRoutes = require("../routes/student-routes");
 // var serviceAccount = require("../testingnodefirebase-firebase-adminsdk-3r3mq-c1b23f2251.json");
 // firebase.initializeApp({
 //   credential: firebase.credential.cert(serviceAccount),
